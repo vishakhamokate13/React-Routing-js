@@ -1,0 +1,50 @@
+.not-found {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.not-found__card {
+  text-align: center;
+  background: #f8fafc;
+  padding: 40px 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 480px;
+}
+
+.not-found__badge {
+  display: inline-block;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.not-found__card h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+}
+
+.not-found__card p {
+  margin: 0 0 18px;
+  color: #475569;
+}
+
+.not-found__link {
+  display: inline-block;
+  text-decoration: none;
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.not-found__link:hover {
+  background: #1d4ed8;
+}
