@@ -1,11 +1,10 @@
-import { Info } from 'lucide-react-dom';
 function About() {
-    return(
-  <div>
-    <h1>About Page <Info /></h1>
-    <p>Welcome, This is About Page</p>
-  </div>
-    )
+    return (
+        <div>
+            <h1>About Page</h1>
+            <p>This is the about page of our application.</p>
+        </div>
+    );
 }
 
 export default About;

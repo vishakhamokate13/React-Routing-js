@@ -1,28 +1,41 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background: #1f2937;
-  color: #ffffff;
+  justify-content: space-between;
+  padding: 18px 24px;
+  background: linear-gradient(90deg, #0f172a 0%, #111827 100%);
+  color: #f8fafc;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.24);
 }
 
 .navbar__brand {
-  font-size: 1.2rem;
   font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.04em;
+  color: #e2e8f0;
 }
 
 .navbar__links {
   display: flex;
-  gap: 1rem;
+  gap: 18px;
 }
 
-.navbar__links a {
-  color: #ffffff;
+.navbar__link {
+  color: #cbd5e1;
   text-decoration: none;
   font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
-.navbar__links a:hover {
-  text-decoration: underline;
+.navbar__link:hover {
+  color: #ffffff;
+  background-color: rgba(148, 163, 184, 0.16);
+  transform: translateY(-1px);
+}
+
+.navbar__link:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 3px;
 }
